@@ -13361,6 +13361,7 @@ export const Legality: {[k: string]:  import('../sim/dex-species').ModdedLearnse
       {
         generation: 9,
         level: 72,
+        nature: 'Modest',
         moves: [ 'lightofruin', 'energyball', 'gigadrain', 'synthesis' ],
         source: 'gen9legends'
       }
@@ -13823,6 +13824,8 @@ export const Legality: {[k: string]:  import('../sim/dex-species').ModdedLearnse
       {
         generation: 9,
         level: 84,
+        ivs: { hp: 31, atk: 31, def: 15, spa: 31, spd: 28, spe: 19 },
+        nature: 'Quiet',
         moves: [ 'coreenforcer', 'thousandarrows', 'thousandwaves', 'landswrath' ],
         source: 'gen9legends'
       }

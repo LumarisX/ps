@@ -362,6 +362,32 @@ export const Formats: import('../sim/dex-formats').FormatList = [
     restricted: [ 'Restricted Legendary', 'Mythical' ]
   },
   {
+    name: '[Gen 9] VGC 2026 Reg F',
+    mod: 'gen9',
+    gameType: 'doubles',
+    bestOfDefault: true,
+    ruleset: [
+      'Flat Rules',
+      '!! Adjust Level = 50',
+      'Min Source Gen = 9',
+      'VGC Timer',
+      'Open Team Sheets'
+    ]
+  },
+  {
+    name: '[Gen 9] VGC 2026 Reg F (Bo3)',
+    mod: 'gen9',
+    gameType: 'doubles',
+    ruleset: [
+      'Flat Rules',
+      '!! Adjust Level = 50',
+      'Min Source Gen = 9',
+      'VGC Timer',
+      'Force Open Team Sheets',
+      'Best of = 3'
+    ]
+  },
+  {
     name: '[Gen 9] Doubles Custom Game',
     mod: 'gen9',
     gameType: 'doubles',
@@ -551,24 +577,24 @@ export const Formats: import('../sim/dex-formats').FormatList = [
       'Terastal Clause'
     ],
     banlist: [
-      'Calyrex-Shadow',   'Deoxys-Attack',    'Diancie-Mega',
-      'Gengar-Mega',      'Groudon-Primal',   'Kartana',
-      'Mewtwo-Mega-X',    'Mewtwo-Mega-Y',    'Rayquaza-Mega',
-      'Regigigas',        'Shedinja',         'Slaking',
-      'Arena Trap',       'Comatose',         'Contrary',
-      'Gorilla Tactics',  'Hadron Engine',    'Huge Power',
-      'Illusion',         'Innards Out',      'Libero',
-      'Liquid Ooze',      'Magnet Pull',      'Moody',
-      'Neutralizing Gas', 'Orichalcum Pulse', 'Parental Bond',
-      'Poison Heal',      'Protean',          'Pure Power',
-      'Shadow Tag',       'Stakeout',         'Water Bubble',
-      'Wonder Guard',     "King's Rock",      'Razor Fang',
-      'Baton Pass',       'Belly Drum',       'Ceaseless Edge',
-      'Clangorous Soul',  'Dire Claw',        'Electro Shot',
-      'Fillet Away',      'Imprison',         'Last Respects',
-      'Lumina Crash',     'No Retreat',       'Photon Geyser',
-      'Power Trip',       'Quiver Dance',     'Rage Fist',
-      'Revival Blessing', 'Shed Tail',        'Substitute',
+      'Calyrex-Shadow',   'Deoxys-Attack',  'Diancie-Mega',
+      'Gengar-Mega',      'Groudon-Primal', 'Kartana',
+      'Mewtwo-Mega-X',    'Mewtwo-Mega-Y',  'Rayquaza-Mega',
+      'Regigigas',        'Shedinja',       'Slaking',
+      'Arena Trap',       'Contrary',       'Gorilla Tactics',
+      'Hadron Engine',    'Huge Power',     'Illusion',
+      'Innards Out',      'Libero',         'Liquid Ooze',
+      'Magnet Pull',      'Moody',          'Neutralizing Gas',
+      'Orichalcum Pulse', 'Parental Bond',  'Poison Heal',
+      'Protean',          'Pure Power',     'Shadow Tag',
+      'Stakeout',         'Water Bubble',   'Wonder Guard',
+      "King's Rock",      'Razor Fang',     'Baton Pass',
+      'Belly Drum',       'Ceaseless Edge', 'Clangorous Soul',
+      'Dire Claw',        'Electro Shot',   'Fillet Away',
+      'Imprison',         'Last Respects',  'Lumina Crash',
+      'No Retreat',       'Photon Geyser',  'Power Trip',
+      'Quiver Dance',     'Rage Fist',      'Revival Blessing',
+      'Shed Tail',        'Sleep Talk',     'Substitute',
       'Shell Smash',      'Tail Glow'
     ]
   },
@@ -1005,17 +1031,13 @@ export const Formats: import('../sim/dex-formats').FormatList = [
     bestOfDefault: true,
     ruleset: [ 'HP Percentage Mod', 'Cancel Mod' ],
     banlist: [
-      'CAP',                 'LGPE',
-      'MissingNo.',          'Pikachu-Cosplay',
-      'Pichu-Spiky-eared',   'Pokestar Smeargle',
-      'Pokestar UFO',        'Pokestar UFO-2',
-      'Pokestar Brycen-Man', 'Pokestar MT',
-      'Pokestar MT2',        'Pokestar Transport',
-      'Pokestar Giant',      'Pokestar Humanoid',
-      'Pokestar Monster',    'Pokestar F-00',
-      'Pokestar F-002',      'Pokestar Spirit',
-      'Pokestar Black Door', 'Pokestar White Door',
-      'Pokestar Black Belt', 'Pokestar UFO-PropU2',
+      'CAP',
+      'Custom',
+      'Future',
+      'LGPE',
+      'MissingNo.',
+      'Pikachu-Cosplay',
+      'Pichu-Spiky-eared',
       'Xerneas-Neutral'
     ]
   },
@@ -1247,24 +1269,16 @@ export const Formats: import('../sim/dex-formats').FormatList = [
     ]
   },
   {
-    name: '[Gen 7] UU',
-    mod: 'gen7',
-    ruleset: [ '[Gen 7] OU' ],
-    banlist: [ 'OU', 'UUBL', 'Drizzle', 'Drought', 'Kommonium Z', 'Mewnium Z' ]
-  },
-  {
-    name: '[Gen 5] VGC 2013',
-    mod: 'gen5',
-    gameType: 'doubles',
-    bestOfDefault: true,
-    ruleset: [ 'Flat Rules' ],
-    banlist: [ 'Chatot', 'Dark Void', 'Sky Drop', 'Soul Dew' ]
-  },
-  {
-    name: '[Gen 8] ZU',
+    name: '[Gen 8] UU',
     mod: 'gen8',
-    ruleset: [ '[Gen 8] PU' ],
-    banlist: [ 'PU', 'ZUBL', 'Damp Rock', 'Grassy Seed' ]
+    ruleset: [ '[Gen 8] OU' ],
+    banlist: [ 'OU', 'UUBL', 'Light Clay' ]
+  },
+  {
+    name: '[Gen 8] CAP',
+    mod: 'gen8',
+    ruleset: [ '[Gen 8] OU', '+CAP' ],
+    banlist: [ 'Crucibellite' ]
   },
   {
     name: '[Gen 8] OU',
@@ -1418,12 +1432,6 @@ export const Formats: import('../sim/dex-formats').FormatList = [
     ruleset: [ 'Standard', 'Dynamax Clause' ],
     banlist: [ 'AG', 'Shadow Tag', 'Baton Pass' ]
   },
-  {
-    name: '[Gen 8] UU',
-    mod: 'gen8',
-    ruleset: [ '[Gen 8] OU' ],
-    banlist: [ 'OU', 'UUBL', 'Light Clay' ]
-  },
   { name: '[Gen 8] RU', mod: 'gen8', ruleset: [ '[Gen 8] UU' ], banlist: [ 'UU', 'RUBL' ] },
   {
     name: '[Gen 8] NU',
@@ -1522,10 +1530,10 @@ export const Formats: import('../sim/dex-formats').FormatList = [
     ]
   },
   {
-    name: '[Gen 8] CAP',
+    name: '[Gen 8] ZU',
     mod: 'gen8',
-    ruleset: [ '[Gen 8] OU', '+CAP' ],
-    banlist: [ 'Crucibellite' ]
+    ruleset: [ '[Gen 8] PU' ],
+    banlist: [ 'PU', 'ZUBL', 'Damp Rock', 'Grassy Seed' ]
   },
   {
     name: '[Gen 8] Battle Stadium Singles',
@@ -1609,6 +1617,12 @@ export const Formats: import('../sim/dex-formats').FormatList = [
     mod: 'gen7',
     ruleset: [ 'Standard', 'Mega Rayquaza Clause' ],
     banlist: [ 'Baton Pass' ]
+  },
+  {
+    name: '[Gen 7] UU',
+    mod: 'gen7',
+    ruleset: [ '[Gen 7] OU' ],
+    banlist: [ 'OU', 'UUBL', 'Drizzle', 'Drought', 'Kommonium Z', 'Mewnium Z' ]
   },
   {
     name: '[Gen 7] RU',
@@ -2163,6 +2177,14 @@ export const Formats: import('../sim/dex-formats').FormatList = [
       'Max Level = 9999',
       'Default Level = 100'
     ]
+  },
+  {
+    name: '[Gen 5] VGC 2013',
+    mod: 'gen5',
+    gameType: 'doubles',
+    bestOfDefault: true,
+    ruleset: [ 'Flat Rules' ],
+    banlist: [ 'Chatot', 'Dark Void', 'Sky Drop', 'Soul Dew' ]
   },
   {
     name: '[Gen 5] Doubles Custom Game',
