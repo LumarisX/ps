@@ -727,7 +727,6 @@
   },
   "transform": {"transform": "[POKEMON] transformed into [SPECIES]!"},
   "trick": {"activate": "  [POKEMON] switched items with its target!"},
-  "uturn": {"switchOut": "[POKEMON] went back to [TRAINER]!"},
   "uproar": {
     "start": "  [POKEMON] caused an uproar!",
     "end": "  [POKEMON] calmed down.",
@@ -735,6 +734,7 @@
     "block": "  But the uproar kept [POKEMON] awake!",
     "blockSelf": "  [POKEMON] can't sleep in an uproar!"
   },
+  "uturn": {"switchOut": "[POKEMON] went back to [TRAINER]!"},
   "voltswitch": {"switchOut": "#uturn"},
   "waterpledge": {
     "activate": "  [POKEMON] is waiting for [TARGET]'s move...",

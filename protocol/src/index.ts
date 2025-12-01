@@ -354,7 +354,7 @@ export namespace Protocol {
     requestType: 'switch';
     rqid: number;
     side: Request.SideInfo;
-    forceSwitch: [true] & boolean[];
+    forceSwitch: boolean[];
     noCancel?: boolean;
   }
 

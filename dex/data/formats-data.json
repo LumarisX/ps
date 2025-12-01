@@ -7401,7 +7401,7 @@
     "skorupi": {"isNonstandard": "Past", "tier": "Illegal", "natDexTier": "LC"},
     "drapion": {"isNonstandard": "Past", "tier": "Illegal", "natDexTier": "RU"},
     "croagunk": {"tier": "LC"},
-    "toxicroak": {"tier": "NU", "doublesTier": "(DUU)", "natDexTier": "RU"},
+    "toxicroak": {"tier": "PU", "doublesTier": "(DUU)", "natDexTier": "RU"},
     "carnivine": {
       "isNonstandard": "Past",
       "tier": "Illegal",
@@ -8496,7 +8496,7 @@
     "falinksmega": {"isNonstandard": "Future", "tier": "Illegal"},
     "pincurchin": {"tier": "ZU", "doublesTier": "(DUU)", "natDexTier": "RU"},
     "snom": {"tier": "LC"},
-    "frosmoth": {"tier": "PU", "doublesTier": "(DUU)", "natDexTier": "RU"},
+    "frosmoth": {"tier": "PUBL", "doublesTier": "(DUU)", "natDexTier": "RU"},
     "stonjourner": {"tier": "ZU", "doublesTier": "(DUU)", "natDexTier": "RU"},
     "eiscue": {"tier": "ZU", "doublesTier": "(DUU)", "natDexTier": "RU"},
     "indeedee": {"tier": "PUBL", "doublesTier": "DUU", "natDexTier": "RU"},
@@ -8553,7 +8553,7 @@
     },
     "urshifugmax": {"isNonstandard": "Past", "tier": "Illegal"},
     "urshifurapidstrikegmax": {"isNonstandard": "Past", "tier": "Illegal"},
-    "zarude": {"tier": "UU", "doublesTier": "(DUU)", "natDexTier": "RU"},
+    "zarude": {"tier": "UUBL", "doublesTier": "(DUU)", "natDexTier": "RU"},
     "regieleki": {"tier": "Uber", "doublesTier": "DUU", "natDexTier": "RU"},
     "regidrago": {"tier": "NUBL", "doublesTier": "DOU", "natDexTier": "RU"},
     "glastrier": {"tier": "ZU", "doublesTier": "(DUU)", "natDexTier": "RU"},
@@ -8705,7 +8705,7 @@
       "natDexTier": "Uber"
     },
     "ogerponcornerstone": {
-      "tier": "UU",
+      "tier": "UUBL",
       "doublesTier": "DUU",
       "natDexTier": "UUBL"
     },

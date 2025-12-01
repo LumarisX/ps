@@ -1,7 +1,5 @@
 import * as fs from 'fs';
 
-import {PokemonSet} from '@pkmn/types';
-
 import {Team, Teams} from '../teams';
 
 import {GEN} from './data';
@@ -36,7 +34,7 @@ describe('Team', () => {
   });
 
   it('canonicalize', () => {
-    const team = Team.import(TEAM)!.team as Partial<PokemonSet>[];
+    const team = Team.import(TEAM)!.team;
 
     const alakazam = team[0];
     const magnezone = team[0] = team[3];

@@ -2197,6 +2197,8 @@ export class RandomGen8Teams {
 		isDoubles = false,
 		isNoDynamax = false
 	): RandomTeamsTypes.RandomSet {
+		const ruleTable = this.dex.formats.getRuleTable(this.format);
+
 		species = this.dex.species.get(species);
 		const forme = this.getForme(species);
 		const gmax = species.name.endsWith('-Gmax');
@@ -2434,7 +2436,10 @@ export class RandomGen8Teams {
 			if (move.damageCallback || move.damage) return true;
 			return move.category !== 'Physical' || move.id === 'bodypress';
 		});
-		if (noAttackStatMoves && !moves.has('transform') && (!moves.has('shellsidearm') || !counter.get('Status'))) {
+		if (
+			noAttackStatMoves && !moves.has('transform') && (!moves.has('shellsidearm') || !counter.get('Status')) &&
+			!ruleTable.has('forceofthefallenmod')
+		) {
 			evs.atk = 0;
 			ivs.atk = 0;
 		}

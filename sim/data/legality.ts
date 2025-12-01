@@ -13852,6 +13852,12 @@ export const Legality: {[k: string]:  import('../sim/dex-species').ModdedLearnse
         shiny: true,
         moves: [ 'diamondstorm', 'moonblast', 'reflect', 'return' ],
         pokeball: 'cherishball'
+      },
+      {
+        generation: 9,
+        level: 70,
+        moves: [ 'diamondstorm', 'moonblast', 'stealthrock', 'drainingkiss' ],
+        source: 'gen9legends'
       }
     ],
     eventOnly: true

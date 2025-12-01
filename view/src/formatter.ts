@@ -470,7 +470,7 @@ class Handler implements Protocol.Handler<string> {
 
   private formechange(
     args: Args['|detailschange|' | '|-formechange|' | '|-transform|'],
-    kwArgs: KWArgs[ | '|-formechange|' | '|-transform|']
+    kwArgs: KWArgs['|-formechange|' | '|-transform|']
   ) {
     const [cmd, pokemon, arg2] = args;
     let newSpecies = '' as SpeciesName;

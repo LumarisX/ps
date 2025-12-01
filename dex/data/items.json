@@ -58,8 +58,8 @@
     },
     "thickclub": {"inherit": true},
     "twistedspoon": {"inherit": true},
-    "berserkgene": {"inherit": true, "isNonstandard": null},
     "berry": {"inherit": true, "isNonstandard": null},
+    "berserkgene": {"inherit": true, "isNonstandard": null},
     "bitterberry": {"inherit": true, "isNonstandard": null},
     "burntberry": {"inherit": true, "isNonstandard": null},
     "goldberry": {"inherit": true, "isNonstandard": null},
@@ -1545,16 +1545,6 @@
       "isNonstandard": "Past",
       "shortDesc": "Holder's first successful Bug-type attack will have 1.3x power. Single use."
     },
-    "bugmemory": {
-      "name": "Bug Memory",
-      "onMemory": "Bug",
-      "forcedForme": "Silvally-Bug",
-      "itemUser": ["Silvally-Bug"],
-      "num": 909,
-      "gen": 7,
-      "isNonstandard": "Past",
-      "shortDesc": "Holder's Multi-Attack is Bug type."
-    },
     "buginiumz": {
       "name": "Buginium Z",
       "onPlate": "Bug",
@@ -1566,6 +1556,16 @@
       "gen": 7,
       "isNonstandard": "Past",
       "shortDesc": "If holder has a Bug move, this item allows it to use a Bug Z-Move."
+    },
+    "bugmemory": {
+      "name": "Bug Memory",
+      "onMemory": "Bug",
+      "forcedForme": "Silvally-Bug",
+      "itemUser": ["Silvally-Bug"],
+      "num": 909,
+      "gen": 7,
+      "isNonstandard": "Past",
+      "shortDesc": "Holder's Multi-Attack is Bug type."
     },
     "burndrive": {
       "name": "Burn Drive",
@@ -1850,16 +1850,6 @@
       "isNonstandard": "Past",
       "shortDesc": "Holder's first successful Dark-type attack will have 1.3x power. Single use."
     },
-    "darkmemory": {
-      "name": "Dark Memory",
-      "onMemory": "Dark",
-      "forcedForme": "Silvally-Dark",
-      "itemUser": ["Silvally-Dark"],
-      "num": 919,
-      "gen": 7,
-      "isNonstandard": "Past",
-      "shortDesc": "Holder's Multi-Attack is Dark type."
-    },
     "darkiniumz": {
       "name": "Darkinium Z",
       "onPlate": "Dark",
@@ -1871,6 +1861,16 @@
       "gen": 7,
       "isNonstandard": "Past",
       "shortDesc": "If holder has a Dark move, this item allows it to use a Dark Z-Move."
+    },
+    "darkmemory": {
+      "name": "Dark Memory",
+      "onMemory": "Dark",
+      "forcedForme": "Silvally-Dark",
+      "itemUser": ["Silvally-Dark"],
+      "num": 919,
+      "gen": 7,
+      "isNonstandard": "Past",
+      "shortDesc": "Holder's Multi-Attack is Dark type."
     },
     "dawnstone": {
       "name": "Dawn Stone",
@@ -2001,23 +2001,6 @@
       "isNonstandard": "Past",
       "shortDesc": "Holder's first successful Dragon-type attack will have 1.3x power. Single use."
     },
-    "dragonmemory": {
-      "name": "Dragon Memory",
-      "onMemory": "Dragon",
-      "forcedForme": "Silvally-Dragon",
-      "itemUser": ["Silvally-Dragon"],
-      "num": 918,
-      "gen": 7,
-      "isNonstandard": "Past",
-      "shortDesc": "Holder's Multi-Attack is Dragon type."
-    },
-    "dragonscale": {
-      "name": "Dragon Scale",
-      "fling": {"basePower": 30},
-      "num": 235,
-      "gen": 2,
-      "shortDesc": "Evolves Seadra into Kingdra when traded."
-    },
     "dragoninite": {
       "name": "Dragoninite",
       "megaStone": "Dragonite-Mega",
@@ -2039,6 +2022,23 @@
       "gen": 7,
       "isNonstandard": "Past",
       "shortDesc": "If holder has a Dragon move, this item allows it to use a Dragon Z-Move."
+    },
+    "dragonmemory": {
+      "name": "Dragon Memory",
+      "onMemory": "Dragon",
+      "forcedForme": "Silvally-Dragon",
+      "itemUser": ["Silvally-Dragon"],
+      "num": 918,
+      "gen": 7,
+      "isNonstandard": "Past",
+      "shortDesc": "Holder's Multi-Attack is Dragon type."
+    },
+    "dragonscale": {
+      "name": "Dragon Scale",
+      "fling": {"basePower": 30},
+      "num": 235,
+      "gen": 2,
+      "shortDesc": "Evolves Seadra into Kingdra when traded."
     },
     "drampanite": {
       "name": "Drampanite",
@@ -2601,16 +2601,6 @@
       "isNonstandard": "Past",
       "shortDesc": "Holder's first successful Ghost-type attack will have 1.3x power. Single use."
     },
-    "ghostmemory": {
-      "name": "Ghost Memory",
-      "onMemory": "Ghost",
-      "forcedForme": "Silvally-Ghost",
-      "itemUser": ["Silvally-Ghost"],
-      "num": 910,
-      "gen": 7,
-      "isNonstandard": "Past",
-      "shortDesc": "Holder's Multi-Attack is Ghost type."
-    },
     "ghostiumz": {
       "name": "Ghostium Z",
       "onPlate": "Ghost",
@@ -2622,6 +2612,16 @@
       "gen": 7,
       "isNonstandard": "Past",
       "shortDesc": "If holder has a Ghost move, this item allows it to use a Ghost Z-Move."
+    },
+    "ghostmemory": {
+      "name": "Ghost Memory",
+      "onMemory": "Ghost",
+      "forcedForme": "Silvally-Ghost",
+      "itemUser": ["Silvally-Ghost"],
+      "num": 910,
+      "gen": 7,
+      "isNonstandard": "Past",
+      "shortDesc": "Holder's Multi-Attack is Ghost type."
     },
     "glalitite": {
       "name": "Glalitite",
@@ -2648,16 +2648,6 @@
       "isNonstandard": "Past",
       "shortDesc": "Holder's first successful Grass-type attack will have 1.3x power. Single use."
     },
-    "grassmemory": {
-      "name": "Grass Memory",
-      "onMemory": "Grass",
-      "forcedForme": "Silvally-Grass",
-      "itemUser": ["Silvally-Grass"],
-      "num": 914,
-      "gen": 7,
-      "isNonstandard": "Past",
-      "shortDesc": "Holder's Multi-Attack is Grass type."
-    },
     "grassiumz": {
       "name": "Grassium Z",
       "onPlate": "Grass",
@@ -2669,6 +2659,16 @@
       "gen": 7,
       "isNonstandard": "Past",
       "shortDesc": "If holder has a Grass move, this item allows it to use a Grass Z-Move."
+    },
+    "grassmemory": {
+      "name": "Grass Memory",
+      "onMemory": "Grass",
+      "forcedForme": "Silvally-Grass",
+      "itemUser": ["Silvally-Grass"],
+      "num": 914,
+      "gen": 7,
+      "isNonstandard": "Past",
+      "shortDesc": "Holder's Multi-Attack is Grass type."
     },
     "grassyseed": {
       "name": "Grassy Seed",
@@ -2738,16 +2738,6 @@
       "isNonstandard": "Past",
       "shortDesc": "Holder's first successful Ground-type attack will have 1.3x power. Single use."
     },
-    "groundmemory": {
-      "name": "Ground Memory",
-      "onMemory": "Ground",
-      "forcedForme": "Silvally-Ground",
-      "itemUser": ["Silvally-Ground"],
-      "num": 907,
-      "gen": 7,
-      "isNonstandard": "Past",
-      "shortDesc": "Holder's Multi-Attack is Ground type."
-    },
     "groundiumz": {
       "name": "Groundium Z",
       "onPlate": "Ground",
@@ -2759,6 +2749,16 @@
       "gen": 7,
       "isNonstandard": "Past",
       "shortDesc": "If holder has a Ground move, this item allows it to use a Ground Z-Move."
+    },
+    "groundmemory": {
+      "name": "Ground Memory",
+      "onMemory": "Ground",
+      "forcedForme": "Silvally-Ground",
+      "itemUser": ["Silvally-Ground"],
+      "num": 907,
+      "gen": 7,
+      "isNonstandard": "Past",
+      "shortDesc": "Holder's Multi-Attack is Ground type."
     },
     "gyaradosite": {
       "name": "Gyaradosite",
@@ -2985,6 +2985,16 @@
       "isNonstandard": "Past",
       "shortDesc": "Can be revived into Tyrunt."
     },
+    "kangaskhanite": {
+      "name": "Kangaskhanite",
+      "megaStone": "Kangaskhan-Mega",
+      "megaEvolves": "Kangaskhan",
+      "itemUser": ["Kangaskhan"],
+      "num": 675,
+      "gen": 6,
+      "isNonstandard": "Past",
+      "shortDesc": "If held by a Kangaskhan, this item allows it to Mega Evolve in battle."
+    },
     "kasibberry": {
       "name": "Kasib Berry",
       "isBerry": true,
@@ -3017,16 +3027,6 @@
       "num": 170,
       "gen": 3,
       "shortDesc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck."
-    },
-    "kangaskhanite": {
-      "name": "Kangaskhanite",
-      "megaStone": "Kangaskhan-Mega",
-      "megaEvolves": "Kangaskhan",
-      "itemUser": ["Kangaskhan"],
-      "num": 675,
-      "gen": 6,
-      "isNonstandard": "Past",
-      "shortDesc": "If held by a Kangaskhan, this item allows it to Mega Evolve in battle."
     },
     "kingsrock": {
       "name": "King's Rock",
@@ -3875,16 +3875,6 @@
       "isNonstandard": "Past",
       "shortDesc": "Holder's first successful Poison-type attack will have 1.3x power. Single use."
     },
-    "poisonmemory": {
-      "name": "Poison Memory",
-      "onMemory": "Poison",
-      "forcedForme": "Silvally-Poison",
-      "itemUser": ["Silvally-Poison"],
-      "num": 906,
-      "gen": 7,
-      "isNonstandard": "Past",
-      "shortDesc": "Holder's Multi-Attack is Poison type."
-    },
     "poisoniumz": {
       "name": "Poisonium Z",
       "onPlate": "Poison",
@@ -3896,6 +3886,16 @@
       "gen": 7,
       "isNonstandard": "Past",
       "shortDesc": "If holder has a Poison move, this item allows it to use a Poison Z-Move."
+    },
+    "poisonmemory": {
+      "name": "Poison Memory",
+      "onMemory": "Poison",
+      "forcedForme": "Silvally-Poison",
+      "itemUser": ["Silvally-Poison"],
+      "num": 906,
+      "gen": 7,
+      "isNonstandard": "Past",
+      "shortDesc": "Holder's Multi-Attack is Poison type."
     },
     "pokeball": {
       "name": "Poke Ball",
@@ -4228,16 +4228,6 @@
       "isNonstandard": "Past",
       "shortDesc": "Holder's Rock-type attacks have 1.2x power."
     },
-    "rockmemory": {
-      "name": "Rock Memory",
-      "onMemory": "Rock",
-      "forcedForme": "Silvally-Rock",
-      "itemUser": ["Silvally-Rock"],
-      "num": 908,
-      "gen": 7,
-      "isNonstandard": "Past",
-      "shortDesc": "Holder's Multi-Attack is Rock type."
-    },
     "rockiumz": {
       "name": "Rockium Z",
       "onPlate": "Rock",
@@ -4249,6 +4239,16 @@
       "gen": 7,
       "isNonstandard": "Past",
       "shortDesc": "If holder has a Rock move, this item allows it to use a Rock Z-Move."
+    },
+    "rockmemory": {
+      "name": "Rock Memory",
+      "onMemory": "Rock",
+      "forcedForme": "Silvally-Rock",
+      "itemUser": ["Silvally-Rock"],
+      "num": 908,
+      "gen": 7,
+      "isNonstandard": "Past",
+      "shortDesc": "Holder's Multi-Attack is Rock type."
     },
     "rockyhelmet": {
       "name": "Rocky Helmet",
@@ -4672,16 +4672,6 @@
       "gen": 8,
       "shortDesc": "Evolves Milcery into Alcremie when held and spun around."
     },
-    "steelixite": {
-      "name": "Steelixite",
-      "megaStone": "Steelix-Mega",
-      "megaEvolves": "Steelix",
-      "itemUser": ["Steelix"],
-      "num": 761,
-      "gen": 6,
-      "isNonstandard": "Past",
-      "shortDesc": "If held by a Steelix, this item allows it to Mega Evolve in battle."
-    },
     "steelgem": {
       "name": "Steel Gem",
       "isGem": true,
@@ -4689,16 +4679,6 @@
       "gen": 5,
       "isNonstandard": "Past",
       "shortDesc": "Holder's first successful Steel-type attack will have 1.3x power. Single use."
-    },
-    "steelmemory": {
-      "name": "Steel Memory",
-      "onMemory": "Steel",
-      "forcedForme": "Silvally-Steel",
-      "itemUser": ["Silvally-Steel"],
-      "num": 911,
-      "gen": 7,
-      "isNonstandard": "Past",
-      "shortDesc": "Holder's Multi-Attack is Steel type."
     },
     "steeliumz": {
       "name": "Steelium Z",
@@ -4711,6 +4691,26 @@
       "gen": 7,
       "isNonstandard": "Past",
       "shortDesc": "If holder has a Steel move, this item allows it to use a Steel Z-Move."
+    },
+    "steelixite": {
+      "name": "Steelixite",
+      "megaStone": "Steelix-Mega",
+      "megaEvolves": "Steelix",
+      "itemUser": ["Steelix"],
+      "num": 761,
+      "gen": 6,
+      "isNonstandard": "Past",
+      "shortDesc": "If held by a Steelix, this item allows it to Mega Evolve in battle."
+    },
+    "steelmemory": {
+      "name": "Steel Memory",
+      "onMemory": "Steel",
+      "forcedForme": "Silvally-Steel",
+      "itemUser": ["Silvally-Steel"],
+      "num": 911,
+      "gen": 7,
+      "isNonstandard": "Past",
+      "shortDesc": "Holder's Multi-Attack is Steel type."
     },
     "stick": {
       "name": "Stick",
@@ -5773,6 +5773,18 @@
       "isNonstandard": "Past",
       "shortDesc": "Holder's first successful Water-type attack will have 1.3x power. Single use."
     },
+    "wateriumz": {
+      "name": "Waterium Z",
+      "onPlate": "Water",
+      "onTakeItem": false,
+      "zMove": true,
+      "zMoveType": "Water",
+      "forcedForme": "Arceus-Water",
+      "num": 778,
+      "gen": 7,
+      "isNonstandard": "Past",
+      "shortDesc": "If holder has a Water move, this item allows it to use a Water Z-Move."
+    },
     "watermemory": {
       "name": "Water Memory",
       "onMemory": "Water",
@@ -5790,18 +5802,6 @@
       "gen": 1,
       "desc": "Evolves Poliwhirl into Poliwrath, Shellder into Cloyster, Staryu into Starmie, Eevee into Vaporeon, Lombre into Ludicolo, and Panpour into Simipour when used.",
       "shortDesc": "Evolves certain species of Pokemon when used."
-    },
-    "wateriumz": {
-      "name": "Waterium Z",
-      "onPlate": "Water",
-      "onTakeItem": false,
-      "zMove": true,
-      "zMoveType": "Water",
-      "forcedForme": "Arceus-Water",
-      "num": 778,
-      "gen": 7,
-      "isNonstandard": "Past",
-      "shortDesc": "If holder has a Water move, this item allows it to use a Water Z-Move."
     },
     "watmelberry": {
       "name": "Watmel Berry",
@@ -5926,14 +5926,6 @@
       "isNonstandard": "Future",
       "shortDesc": "If held by a Zygarde in Complete Forme, this item allows it to Mega Evolve in battle."
     },
-    "berserkgene": {
-      "name": "Berserk Gene",
-      "boosts": {"atk": 2},
-      "num": 0,
-      "gen": 2,
-      "isNonstandard": "Past",
-      "shortDesc": "(Gen 2) On switch-in, raises holder's Attack by 2 and confuses it. Single use."
-    },
     "berry": {
       "name": "Berry",
       "isBerry": true,
@@ -5943,6 +5935,14 @@
       "gen": 2,
       "isNonstandard": "Past",
       "shortDesc": "(Gen 2) Restores 10 HP when at 1/2 max HP or less. Single use."
+    },
+    "berserkgene": {
+      "name": "Berserk Gene",
+      "boosts": {"atk": 2},
+      "num": 0,
+      "gen": 2,
+      "isNonstandard": "Past",
+      "shortDesc": "(Gen 2) On switch-in, raises holder's Attack by 2 and confuses it. Single use."
     },
     "bitterberry": {
       "name": "Bitter Berry",

@@ -3283,6 +3283,12 @@
       "desc": "If Rain Dance is active, this Pokemon's Speed is doubled. This effect is prevented if this Pokemon is holding a Utility Umbrella.",
       "shortDesc": "If Rain Dance is active, this Pokemon's Speed is doubled."
     },
+    "swordofruin": {
+      "flags": {},
+      "name": "Sword of Ruin",
+      "num": 285,
+      "shortDesc": "Active Pokemon without this Ability have their Defense multiplied by 0.75."
+    },
     "symbiosis": {
       "flags": {},
       "name": "Symbiosis",
@@ -3296,12 +3302,6 @@
       "num": 28,
       "desc": "If another Pokemon burns, paralyzes, poisons, or badly poisons this Pokemon, that Pokemon receives the same non-volatile status condition.",
       "shortDesc": "If another Pokemon burns/poisons/paralyzes this Pokemon, it also gets that status."
-    },
-    "swordofruin": {
-      "flags": {},
-      "name": "Sword of Ruin",
-      "num": 285,
-      "shortDesc": "Active Pokemon without this Ability have their Defense multiplied by 0.75."
     },
     "tabletsofruin": {
       "flags": {},
