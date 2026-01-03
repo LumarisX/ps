@@ -4898,6 +4898,12 @@ export const Legality: {[k: string]:  import('../sim/dex-species').ModdedLearnse
         perfectIVs: 6,
         isHidden: true,
         moves: [ 'psystrike', 'aurasphere', 'icebeam', 'calmmind' ]
+      },
+      {
+        generation: 9,
+        level: 70,
+        moves: [ 'psychic', 'aurasphere', 'psychocut', 'amnesia' ],
+        source: 'gen9legends'
       }
     ],
     encounters: [ { generation: 1, level: 70 } ],
@@ -5031,7 +5037,13 @@ export const Legality: {[k: string]:  import('../sim/dex-species').ModdedLearnse
         pokeball: 'cherishball'
       },
       { generation: 8, level: 1, moves: [ 'pound' ], pokeball: 'pokeball' },
-      { generation: 8, level: 1, moves: [ 'pound', 'reflecttype' ], source: 'gen8bdsp' },
+      {
+        generation: 8,
+        level: 1,
+        moves: [ 'pound', 'reflecttype' ],
+        pokeball: 'pokeball',
+        source: 'gen8bdsp'
+      },
       {
         generation: 9,
         level: 5,
@@ -9428,7 +9440,13 @@ export const Legality: {[k: string]:  import('../sim/dex-species').ModdedLearnse
         moves: [ 'meteormash', 'psychic', 'rest', 'wish' ],
         pokeball: 'cherishball'
       },
-      { generation: 8, level: 5, moves: [ 'confusion', 'wish' ], source: 'gen8bdsp' }
+      {
+        generation: 8,
+        level: 5,
+        moves: [ 'confusion', 'wish' ],
+        pokeball: 'pokeball',
+        source: 'gen8bdsp'
+      }
     ],
     eventOnly: true
   },
@@ -13363,6 +13381,7 @@ export const Legality: {[k: string]:  import('../sim/dex-species').ModdedLearnse
         level: 72,
         nature: 'Modest',
         moves: [ 'lightofruin', 'energyball', 'gigadrain', 'synthesis' ],
+        pokeball: 'pokeball',
         source: 'gen9legends'
       }
     ],

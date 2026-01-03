@@ -345,10 +345,10 @@ for (const [pkg, Dex] of Object.entries(DATA)) {
         // Necrozma (2) + Terapagos (2)
         formes = 1 + 4 + 5 + 1 + 1 + 3 + 1 + 2 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 3 + 2 + 2 +
           (8 + 3 + 4 + 7 + 6 + 14 + 17 + 1 + 1 + 1 + 1 + 1 + 1 + 2 + 1 + 1 + 2 + 1 + 1) +
-          (8 + 1 + 2 + 1 + 1 + 2 + 7) + (1 + 3 + 1 + 2 + 1 + 1 + 2 + 2);
+          (8 + 1 + 2 + 1 + 1 + 2 + 7) + (1 + 3 + 1 + 2 + 1 + 1 + 2 + 2) + 2;
         // Charizard (3) + Cinderace (3) + Greninja (3) + Vivillon (1) + Walking Wake (1) +
         // Iron Leaves (1) + Decidueye (3) + Samurott (3) + Typhlosion (3) + Inteleon (3) +
-        // Chesnaught (3) + HOME (51) + DLC1 (109) + DLC2 (145) + Pecharunt (1)
+        // Chesnaught (3) + HOME (51) + DLC1 (109) + DLC2 (145) + Pecharunt (1) + Tatsugiri (2)
         expect(counts(9)).toEqual(
           {species: 400 + 3 + 3 + 3 + 3 + 3 + 3 + 3 + 3 + 3 + 51 + 109 + 145 + 1, formes}
         );

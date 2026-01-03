@@ -5,7 +5,6 @@ export const Formats = [
     name: '[Gen 7] VGC 2017',
     mod: 'gen7sm',
     gameType: 'doubles',
-    searchShow: false,
     bestOfDefault: true,
     ruleset: [
       'Flat Rules',

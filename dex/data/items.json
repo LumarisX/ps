@@ -1191,6 +1191,15 @@
       "isNonstandard": "Past",
       "shortDesc": "If held by an Absol, this item allows it to Mega Evolve in battle."
     },
+    "absolitez": {
+      "name": "Absolite Z",
+      "megaStone": "Absol-Mega-Z",
+      "megaEvolves": "Absol",
+      "itemUser": ["Absol"],
+      "num": 2588,
+      "gen": 9,
+      "isNonstandard": "Future"
+    },
     "absorbbulb": {
       "name": "Absorb Bulb",
       "fling": {"basePower": 30},
@@ -1377,6 +1386,15 @@
       "gen": 9,
       "isNonstandard": "Future",
       "shortDesc": "If held by a Barbaracle, this item allows it to Mega Evolve in battle."
+    },
+    "baxcalibrite": {
+      "name": "Baxcalibrite",
+      "megaStone": "Baxcalibur-Mega",
+      "megaEvolves": "Baxcalibur",
+      "itemUser": ["Baxcalibur"],
+      "num": 2601,
+      "gen": 9,
+      "isNonstandard": "Future"
     },
     "beastball": {
       "name": "Beast Ball",
@@ -1693,6 +1711,15 @@
       "isNonstandard": "Past",
       "shortDesc": "Holder's Techno Blast is Ice type."
     },
+    "chimechite": {
+      "name": "Chimechite",
+      "megaStone": "Chimecho-Mega",
+      "megaEvolves": "Chimecho",
+      "itemUser": ["Chimecho"],
+      "num": 2587,
+      "gen": 9,
+      "isNonstandard": "Future"
+    },
     "chippedpot": {
       "name": "Chipped Pot",
       "fling": {"basePower": 80},
@@ -1819,6 +1846,15 @@
       "desc": "The holder is not affected by the secondary effect of another Pokemon's attack. Attacks with secondary effects that are prevented include those with a chance (even 100%) to paralyze, sleep, freeze, burn, poison, confuse, cause the holder to flinch, cause the holder's stat stages to be lowered, as well as Anchor Shot, Eerie Spell, Fling, Psychic Noise, Salt Cure, Spirit Shackle, Syrup Bomb, and Throat Chop. The effect of Sparkling Aria is prevented if the holder is the only target. Secondary effects added by King's Rock, Razor Fang, and the Poison Touch, Stench, and Toxic Chain Abilities are also prevented against the holder.",
       "shortDesc": "Holder is not affected by the secondary effect of another Pokemon's attack."
     },
+    "crabominite": {
+      "name": "Crabominite",
+      "megaStone": "Crabominable-Mega",
+      "megaEvolves": "Crabominable",
+      "itemUser": ["Crabominable"],
+      "num": 2595,
+      "gen": 9,
+      "isNonstandard": "Future"
+    },
     "crackedpot": {
       "name": "Cracked Pot",
       "fling": {"basePower": 80},
@@ -1871,6 +1907,15 @@
       "gen": 7,
       "isNonstandard": "Past",
       "shortDesc": "Holder's Multi-Attack is Dark type."
+    },
+    "darkranite": {
+      "name": "Darkranite",
+      "megaStone": "Darkrai-Mega",
+      "megaEvolves": "Darkrai",
+      "itemUser": ["Darkrai"],
+      "num": 2593,
+      "gen": 9,
+      "isNonstandard": "Future"
     },
     "dawnstone": {
       "name": "Dawn Stone",
@@ -2573,6 +2618,15 @@
       "isNonstandard": "Past",
       "shortDesc": "If held by a Garchomp, this item allows it to Mega Evolve in battle."
     },
+    "garchompitez": {
+      "name": "Garchompite Z",
+      "megaStone": "Garchomp-Mega-Z",
+      "megaEvolves": "Garchomp",
+      "itemUser": ["Garchomp"],
+      "num": 2590,
+      "gen": 9,
+      "isNonstandard": "Future"
+    },
     "gardevoirite": {
       "name": "Gardevoirite",
       "megaStone": "Gardevoir-Mega",
@@ -2633,12 +2687,39 @@
       "isNonstandard": "Past",
       "shortDesc": "If held by a Glalie, this item allows it to Mega Evolve in battle."
     },
+    "glimmoranite": {
+      "name": "Glimmoranite",
+      "megaStone": "Glimmora-Mega",
+      "megaEvolves": "Glimmora",
+      "itemUser": ["Glimmora"],
+      "num": 2600,
+      "gen": 9,
+      "isNonstandard": "Future"
+    },
     "goldbottlecap": {
       "name": "Gold Bottle Cap",
       "fling": {"basePower": 30},
       "num": 796,
       "gen": 7,
       "shortDesc": "Used for Hyper Training. All of a Pokemon's stats are calculated with an IV of 31."
+    },
+    "golisopite": {
+      "name": "Golisopite",
+      "megaStone": "Golisopod-Mega",
+      "megaEvolves": "Golisopod",
+      "itemUser": ["Golisopod"],
+      "num": 2596,
+      "gen": 9,
+      "isNonstandard": "Future"
+    },
+    "golurkite": {
+      "name": "Golurkite",
+      "megaStone": "Golurk-Mega",
+      "megaEvolves": "Golurk",
+      "itemUser": ["Golurk"],
+      "num": 2594,
+      "gen": 9,
+      "isNonstandard": "Future"
     },
     "grassgem": {
       "name": "Grass Gem",
@@ -2812,6 +2893,15 @@
       "num": 2408,
       "gen": 9,
       "shortDesc": "Ogerpon-Hearthflame: 1.2x power attacks; Terastallize to gain Embody Aspect."
+    },
+    "heatranite": {
+      "name": "Heatranite",
+      "megaStone": "Heatran-Mega",
+      "megaEvolves": "Heatran",
+      "itemUser": ["Heatran"],
+      "num": 2592,
+      "gen": 9,
+      "isNonstandard": "Future"
     },
     "heatrock": {
       "name": "Heat Rock",
@@ -3225,6 +3315,15 @@
       "isNonstandard": "Past",
       "shortDesc": "If held by a Lucario, this item allows it to Mega Evolve in battle."
     },
+    "lucarionitez": {
+      "name": "Lucarionite Z",
+      "megaStone": "Lucario-Mega-Z",
+      "megaEvolves": "Lucario",
+      "itemUser": ["Lucario"],
+      "num": 2591,
+      "gen": 9,
+      "isNonstandard": "Future"
+    },
     "luckypunch": {
       "name": "Lucky Punch",
       "fling": {"basePower": 40},
@@ -3313,6 +3412,15 @@
       "gen": 3,
       "isNonstandard": "Past",
       "shortDesc": "Holder's Speed is halved. The Klutz Ability does not ignore this effect."
+    },
+    "magearnite": {
+      "name": "Magearnite",
+      "megaStone": ["Magearna-Mega", "Magearna-Original-Mega"],
+      "megaEvolves": ["Magearna", "Magearna-Original"],
+      "itemUser": ["Magearna", "Magearna-Original"],
+      "num": 2597,
+      "gen": 9,
+      "isNonstandard": "Future"
     },
     "magmarizer": {
       "name": "Magmarizer",
@@ -3459,6 +3567,15 @@
       "num": 219,
       "gen": 3,
       "shortDesc": "Cures holder of Attract, Disable, Encore, Heal Block, Taunt, Torment. Single use."
+    },
+    "meowsticite": {
+      "name": "Meowsticite",
+      "megaStone": ["Meowstic-M-Mega", "Meowstic-F-Mega"],
+      "megaEvolves": ["Meowstic", "Meowstic-F"],
+      "itemUser": ["Meowstic", "Meowstic-F"],
+      "num": 2594,
+      "gen": 9,
+      "isNonstandard": "Future"
     },
     "metagrossite": {
       "name": "Metagrossite",
@@ -4115,6 +4232,24 @@
       "isNonstandard": "Past",
       "shortDesc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck."
     },
+    "raichunitex": {
+      "name": "Raichunite X",
+      "megaStone": "Raichu-Mega-X",
+      "megaEvolves": "Raichu",
+      "itemUser": ["Raichu"],
+      "num": 2585,
+      "gen": 9,
+      "isNonstandard": "Future"
+    },
+    "raichunitey": {
+      "name": "Raichunite Y",
+      "megaStone": "Raichu-Mega-Y",
+      "megaEvolves": "Raichu",
+      "itemUser": ["Raichu"],
+      "num": 2586,
+      "gen": 9,
+      "isNonstandard": "Future"
+    },
     "rarebone": {
       "name": "Rare Bone",
       "fling": {"basePower": 100},
@@ -4409,6 +4544,15 @@
       "gen": 2,
       "shortDesc": "Holder's critical hit ratio is raised by 1 stage."
     },
+    "scovillainite": {
+      "name": "Scovillainite",
+      "megaStone": "Scovillain-Mega",
+      "megaEvolves": "Scovillain",
+      "itemUser": ["Scovillain"],
+      "num": 2599,
+      "gen": 9,
+      "isNonstandard": "Future"
+    },
     "scraftinite": {
       "name": "Scraftinite",
       "megaStone": "Scrafty-Mega",
@@ -4647,6 +4791,15 @@
       "isPokeball": true,
       "shortDesc": "A special Poke Ball for the Bug-Catching Contest."
     },
+    "staraptite": {
+      "name": "Staraptite",
+      "megaStone": "Staraptor-Mega",
+      "megaEvolves": "Staraptor",
+      "itemUser": ["Staraptor"],
+      "num": 2589,
+      "gen": 9,
+      "isNonstandard": "Future"
+    },
     "starfberry": {
       "name": "Starf Berry",
       "isBerry": true,
@@ -4820,6 +4973,19 @@
       "num": 1117,
       "gen": 8,
       "shortDesc": "Evolves Applin into Flapple when used."
+    },
+    "tatsugirinite": {
+      "name": "Tatsugirinite",
+      "megaStone": [
+        "Tatsugiri-Curly-Mega",
+        "Tatsugiri-Droopy-Mega",
+        "Tatsugiri-Stretchy-Mega"
+      ],
+      "megaEvolves": ["Tatsugiri", "Tatsugiri-Droopy", "Tatsugiri-Stretchy"],
+      "itemUser": ["Tatsugiri", "Tatsugiri-Droopy", "Tatsugiri-Stretchy"],
+      "num": 2601,
+      "gen": 9,
+      "isNonstandard": "Future"
     },
     "terrainextender": {
       "name": "Terrain Extender",
@@ -5907,6 +6073,15 @@
       "num": 300,
       "gen": 4,
       "shortDesc": "Holder's Electric-type attacks have 1.2x power. Judgment is Electric type."
+    },
+    "zeraorite": {
+      "name": "Zeraorite",
+      "megaStone": "Zeraora-Mega",
+      "megaEvolves": "Zeraora",
+      "itemUser": ["Zeraora"],
+      "num": 2598,
+      "gen": 9,
+      "isNonstandard": "Future"
     },
     "zoomlens": {
       "name": "Zoom Lens",

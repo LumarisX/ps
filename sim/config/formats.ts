@@ -1,4 +1,12 @@
 export const Formats: import('../sim/dex-formats').FormatList = [
+  { name: '[Gen 9] OU + Solgaleo', mod: 'gen9', ruleset: [ '[Gen 9] OU', '+Solgaleo' ] },
+  {
+    name: '[Gen 9] 1v1 Factory',
+    mod: 'gen9',
+    team: 'random1v1Factory',
+    bestOfDefault: true,
+    ruleset: [ '[Gen 9] 1v1' ]
+  },
   {
     name: '[Gen 9] Random Battle',
     mod: 'gen9',
@@ -440,21 +448,21 @@ export const Formats: import('../sim/dex-formats').FormatList = [
     mod: 'gen9',
     ruleset: [ '[Gen 9] Ubers' ],
     banlist: [
-      'Arceus-Normal',       'Arceus-Fairy',     'Arceus-Ghost',
-      'Arceus-Ground',       'Arceus-Water',     'Calyrex-Ice',
-      'Chien-Pao',           'Deoxys-Attack',    'Deoxys-Speed',
-      'Ditto',               'Dondozo',          'Eternatus',
-      'Flutter Mane',        'Giratina',         'Giratina-Origin',
-      'Glimmora',            'Gliscor',          'Grimmsnarl',
-      'Groudon',             'Hatterene',        'Ho-Oh',
-      'Kingambit',           'Koraidon',         'Kyogre',
-      'Kyurem-Black',        'Landorus-Therian', 'Lunala',
-      'Necrozma-Dusk-Mane',  'Rayquaza',         'Regieleki',
-      'Ribombee',            'Skeledirge',       'Terapagos',
-      'Ting-Lu',             'Zacian-Crowned',   'Arceus-Dragon',
-      'Arceus-Fire',         'Arceus-Flying',    'Arceus-Steel',
-      'Necrozma-Dawn-Wings', 'Shaymin-Sky',      'Spectrier',
-      'Zacian',              'Zekrom'
+      'Arceus-Normal',      'Arceus-Fairy',        'Arceus-Ghost',
+      'Arceus-Ground',      'Arceus-Water',        'Calyrex-Ice',
+      'Chien-Pao',          'Deoxys-Attack',       'Deoxys-Speed',
+      'Ditto',              'Dondozo',             'Eternatus',
+      'Flutter Mane',       'Giratina',            'Giratina-Origin',
+      'Glimmora',           'Gliscor',             'Grimmsnarl',
+      'Groudon',            'Hatterene',           'Ho-Oh',
+      'Kingambit',          'Koraidon',            'Kyogre',
+      'Kyurem-Black',       'Landorus-Therian',    'Lunala',
+      'Necrozma-Dusk-Mane', 'Rayquaza',            'Regieleki',
+      'Ribombee',           'Skeledirge',          'Terapagos',
+      'Ting-Lu',            'Zacian-Crowned',      'Arceus-Dragon',
+      'Arceus-Electric',    'Arceus-Fire',         'Arceus-Flying',
+      'Arceus-Steel',       'Necrozma-Dawn-Wings', 'Shaymin-Sky',
+      'Spectrier',          'Zacian',              'Zekrom'
     ]
   },
   {
@@ -501,20 +509,21 @@ export const Formats: import('../sim/dex-formats').FormatList = [
     mod: 'gen9',
     ruleset: [ '[Gen 9] LC' ],
     banlist: [
-      'Chinchou',  'Diglett-Alola',
-      'Elekid',    'Foongus',
-      'Glimmet',   'Gothita',
-      'Grookey',   'Growlithe-Hisui',
-      'Larvesta',  'Mareanie',
-      'Mienfoo',   'Mudbray',
-      'Pawniard',  'Sandshrew-Alola',
-      'Shellder',  'Shellos',
-      'Shroodle',  'Snover',
-      'Stunky',    'Timburr',
-      'Tinkatink', 'Toedscool',
-      'Trapinch',  'Vullaby',
-      'Wingull',   'Zorua-Hisui',
-      'Deerling',  'Minccino'
+      'Chinchou',        'Diglett-Alola',
+      'Drifloon',        'Elekid',
+      'Foongus',         'Glimmet',
+      'Gothita',         'Greavard',
+      'Grookey',         'Growlithe-Hisui',
+      'Koffing',         'Mareanie',
+      'Mienfoo',         'Mudbray',
+      'Pawniard',        'Salandit',
+      'Sandshrew-Alola', 'Shellder',
+      'Shellos',         'Snover',
+      'Stunky',          'Timburr',
+      'Tinkatink',       'Toedscool',
+      'Trapinch',        'Vullaby',
+      'Wingull',         'Zorua-Hisui',
+      'Deerling',        'Minccino'
     ]
   },
   {
@@ -708,7 +717,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
     name: '[Gen 9] National Dex RU',
     mod: 'gen9',
     ruleset: [ '[Gen 9] National Dex UU' ],
-    banlist: [ 'ND UU', 'ND RUBL', 'Slowbro-Base + Slowbronite' ]
+    banlist: [ 'ND UU', 'ND RUBL', 'Slowbronite' ]
   },
   {
     name: '[Gen 9] National Dex LC',
@@ -812,12 +821,12 @@ export const Formats: import('../sim/dex-formats').FormatList = [
     mod: 'gen9',
     ruleset: [ '[Gen 9] National Dex Ubers' ],
     banlist: [
-      'Arceus-Normal',  'Arceus-Dark',        'Arceus-Ground',
-      'Calyrex-Ice',    'Chansey',            'Deoxys-Attack',
-      'Deoxys-Speed',   'Ditto',              'Dondozo',
+      'Alomomola',      'Arceus-Normal',      'Arceus-Dark',
+      'Arceus-Ground',  'Calyrex-Ice',        'Chansey',
+      'Deoxys-Attack',  'Ditto',              'Dondozo',
       'Eternatus',      'Giratina-Origin',    'Groudon-Primal',
-      'Hatterene',      'Ho-Oh',              'Kyogre-Primal',
-      'Lunala',         'Marshadow',          'Melmetal',
+      'Hatterene',      'Ho-Oh',              'Kingambit',
+      'Kyogre-Primal',  'Lunala',             'Marshadow',
       'Mewtwo-Mega-Y',  'Necrozma-Dusk-Mane', 'Necrozma-Ultra',
       'Salamence-Mega', 'Smeargle',           'Yveltal',
       'Zacian-Crowned', 'Zygarde-50%',        'Arceus-Dragon',
@@ -946,6 +955,12 @@ export const Formats: import('../sim/dex-formats').FormatList = [
       'Razor Fang',            'Smooth Rock',     'Terrain Extender',
       'Baton Pass'
     ]
+  },
+  {
+    name: '[Gen 9] BSS Factory (Bo3)',
+    mod: 'gen9',
+    team: 'randomBSSFactory',
+    ruleset: [ 'Flat Rules', 'VGC Timer', 'Best of = 3' ]
   },
   {
     name: '[Gen 9] Monotype Random Battle',
@@ -1226,7 +1241,23 @@ export const Formats: import('../sim/dex-formats').FormatList = [
       'Freeze Clause Mod'
     ]
   },
-  { name: '[Gen 1] Ubers', mod: 'gen1', ruleset: [ 'Standard' ] },
+  { name: '[Gen 2] Ubers', mod: 'gen2', ruleset: [ 'Standard' ] },
+  {
+    name: '[Gen 5] LC',
+    mod: 'gen5',
+    ruleset: [ 'Standard', 'Little Cup', 'Sleep Moves Clause' ],
+    banlist: [
+      'Gligar',      'Meditite',
+      'Misdreavus',  'Murkrow',
+      'Scraggy',     'Scyther',
+      'Sneasel',     'Tangela',
+      'Vulpix',      'Yanma',
+      'Sand Rush',   'Sand Veil',
+      'Berry Juice', 'Soul Dew',
+      'Baton Pass',  'Dragon Rage',
+      'Sonic Boom',  'Swagger'
+    ]
+  },
   {
     name: '[Gen 8] OU',
     mod: 'gen8',
@@ -2044,22 +2075,6 @@ export const Formats: import('../sim/dex-formats').FormatList = [
     banlist: [ 'NU', 'PUBL', 'Damp Rock' ]
   },
   {
-    name: '[Gen 5] LC',
-    mod: 'gen5',
-    ruleset: [ 'Standard', 'Little Cup', 'Sleep Moves Clause' ],
-    banlist: [
-      'Gligar',      'Meditite',
-      'Misdreavus',  'Murkrow',
-      'Scraggy',     'Scyther',
-      'Sneasel',     'Tangela',
-      'Vulpix',      'Yanma',
-      'Sand Rush',   'Sand Veil',
-      'Berry Juice', 'Soul Dew',
-      'Baton Pass',  'Dragon Rage',
-      'Sonic Boom',  'Swagger'
-    ]
-  },
-  {
     name: '[Gen 5] Monotype',
     mod: 'gen5',
     ruleset: [ '[Gen 5] OU', 'Same Type Clause', '!Gems Clause' ],
@@ -2368,13 +2383,13 @@ export const Formats: import('../sim/dex-formats').FormatList = [
     mod: 'gen3',
     ruleset: [ 'Standard', 'Little Cup', 'Sleep Moves Clause', 'Accuracy Moves Clause' ],
     banlist: [
-      'Chansey',      'Meditite',
-      'Omanyte',      'Porygon',
-      'Scyther',      'Wynaut',
-      'Zigzagoon',    'Deep Sea Tooth',
-      'Baton Pass',   'Dragon Rage',
-      'Sonic Boom',   'Swagger',
-      'Thunder Wave'
+      'Chansey',        'Diglett',
+      'Meditite',       'Omanyte',
+      'Porygon',        'Scyther',
+      'Wynaut',         'Zigzagoon',
+      'Deep Sea Tooth', 'Baton Pass',
+      'Dragon Rage',    'Sonic Boom',
+      'Swagger',        'Thunder Wave'
     ]
   },
   {
@@ -2470,7 +2485,6 @@ export const Formats: import('../sim/dex-formats').FormatList = [
       'Default Level = 100'
     ]
   },
-  { name: '[Gen 2] Ubers', mod: 'gen2', ruleset: [ 'Standard' ] },
   {
     name: '[Gen 2] UU',
     mod: 'gen2',
@@ -2533,6 +2547,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
       'Default Level = 100'
     ]
   },
+  { name: '[Gen 1] Ubers', mod: 'gen1', ruleset: [ 'Standard' ] },
   {
     name: '[Gen 1] UU',
     mod: 'gen1',
