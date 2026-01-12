@@ -85,8 +85,7 @@ export interface ItemData extends EffectData {
   isGem?: boolean;
   isPokeball?: boolean;
   isPrimalOrb?: boolean;
-  megaStone?: string | string[];
-  megaEvolves?: string | string[];
+  megaStone?: {[megaEvolves: string]: string};
   naturalGift?: {basePower: number; type: TypeName};
   onDrive?: string;
   onMemory?: string;
@@ -371,8 +370,7 @@ export interface Item extends Readonly<BasicEffect<ItemName> & ItemData> {
   readonly effectType: 'Item';
   readonly kind: 'Item';
   readonly forcedForme?: SpeciesName;
-  readonly megaStone?: SpeciesName | SpeciesName[];
-  readonly megaEvolves?: SpeciesName | SpeciesName[];
+  readonly megaStone?: {[megaEvolves: SpeciesName]: SpeciesName};
   readonly onDrive?: TypeName;
   readonly onMemory?: TypeName;
   readonly onPlate?: TypeName;

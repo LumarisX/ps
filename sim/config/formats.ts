@@ -284,7 +284,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
     restricted: [ 'Restricted Legendary' ]
   },
   {
-    name: '[Gen 9] VGC 2025 Reg I',
+    name: '[Gen 9] VGC 2026 Reg I',
     mod: 'gen9',
     gameType: 'doubles',
     bestOfDefault: true,
@@ -293,39 +293,9 @@ export const Formats: import('../sim/dex-formats').FormatList = [
       '!! Adjust Level = 50',
       'Min Source Gen = 9',
       'VGC Timer',
-      'Open Team Sheets',
       'Limit Two Restricted'
     ],
     restricted: [ 'Restricted Legendary' ]
-  },
-  {
-    name: '[Gen 9] VGC 2025 Reg J',
-    mod: 'gen9',
-    gameType: 'doubles',
-    bestOfDefault: true,
-    ruleset: [
-      'Flat Rules',
-      '!! Adjust Level = 50',
-      'Min Source Gen = 9',
-      'VGC Timer',
-      'Limit Two Restricted'
-    ],
-    restricted: [ 'Restricted Legendary', 'Mythical' ]
-  },
-  {
-    name: '[Gen 9] VGC 2025 Reg J (Bo3)',
-    mod: 'gen9',
-    gameType: 'doubles',
-    ruleset: [
-      'Flat Rules',
-      '!! Adjust Level = 50',
-      'Min Source Gen = 9',
-      'VGC Timer',
-      'Force Open Team Sheets',
-      'Best of = 3',
-      'Limit Two Restricted'
-    ],
-    restricted: [ 'Restricted Legendary', 'Mythical' ]
   },
   {
     name: '[Gen 9] VGC 2026 Reg F',
@@ -448,21 +418,21 @@ export const Formats: import('../sim/dex-formats').FormatList = [
     mod: 'gen9',
     ruleset: [ '[Gen 9] Ubers' ],
     banlist: [
-      'Arceus-Normal',      'Arceus-Fairy',        'Arceus-Ghost',
-      'Arceus-Ground',      'Arceus-Water',        'Calyrex-Ice',
-      'Chien-Pao',          'Deoxys-Attack',       'Deoxys-Speed',
-      'Ditto',              'Dondozo',             'Eternatus',
-      'Flutter Mane',       'Giratina',            'Giratina-Origin',
-      'Glimmora',           'Gliscor',             'Grimmsnarl',
-      'Groudon',            'Hatterene',           'Ho-Oh',
-      'Kingambit',          'Koraidon',            'Kyogre',
-      'Kyurem-Black',       'Landorus-Therian',    'Lunala',
-      'Necrozma-Dusk-Mane', 'Rayquaza',            'Regieleki',
-      'Ribombee',           'Skeledirge',          'Terapagos',
-      'Ting-Lu',            'Zacian-Crowned',      'Arceus-Dragon',
-      'Arceus-Electric',    'Arceus-Fire',         'Arceus-Flying',
-      'Arceus-Steel',       'Necrozma-Dawn-Wings', 'Shaymin-Sky',
-      'Spectrier',          'Zacian',              'Zekrom'
+      'Arceus-Normal',       'Arceus-Fairy',    'Arceus-Ghost',
+      'Arceus-Ground',       'Arceus-Water',    'Calyrex-Ice',
+      'Chien-Pao',           'Deoxys-Attack',   'Deoxys-Speed',
+      'Ditto',               'Dondozo',         'Eternatus',
+      'Flutter Mane',        'Giratina-Origin', 'Glimmora',
+      'Gliscor',             'Grimmsnarl',      'Groudon',
+      'Hatterene',           'Ho-Oh',           'Kingambit',
+      'Koraidon',            'Kyogre',          'Kyurem-Black',
+      'Landorus-Therian',    'Lunala',          'Necrozma-Dusk-Mane',
+      'Rayquaza',            'Ribombee',        'Skeledirge',
+      'Terapagos',           'Ting-Lu',         'Zacian-Crowned',
+      'Arceus-Dragon',       'Arceus-Electric', 'Arceus-Fire',
+      'Arceus-Flying',       'Arceus-Steel',    'Giratina',
+      'Necrozma-Dawn-Wings', 'Shaymin-Sky',     'Spectrier',
+      'Zacian',              'Zekrom'
     ]
   },
   {
@@ -628,42 +598,6 @@ export const Formats: import('../sim/dex-formats').FormatList = [
       'Endless Battle Clause',
       'EV limit = 510'
     ]
-  },
-  {
-    name: '[Gen 8] Balanced Hackmons',
-    mod: 'gen8',
-    ruleset: [
-      '-Nonexistent',
-      'OHKO Clause',
-      'Evasion Moves Clause',
-      'Forme Clause',
-      'Team Preview',
-      'HP Percentage Mod',
-      'Cancel Mod',
-      'Dynamax Clause',
-      'Sleep Moves Clause',
-      'Endless Battle Clause'
-    ],
-    banlist: [
-      'Calyrex-Shadow',        'Cramorant-Gorging',
-      'Darmanitan-Galar-Zen',  'Eternatus-Eternamax',
-      'Shedinja',              'Zacian-Crowned',
-      'Arena Trap',            'Contrary',
-      'Gorilla Tactics',       'Huge Power',
-      'Illusion',              'Innards Out',
-      'Intrepid Sword',        'Libero',
-      'Magnet Pull',           'Moody',
-      'Neutralizing Gas',      'Parental Bond',
-      'Protean',               'Pure Power',
-      'Shadow Tag',            'Stakeout',
-      'Water Bubble',          'Wonder Guard',
-      'Comatose + Sleep Talk', 'Rusted Sword',
-      'Belly Drum',            'Bolt Beak',
-      'Court Change',          'Double Iron Bash',
-      'Octolock',              'Shell Smash',
-      'Transform'
-    ],
-    unbanlist: [ 'Acupressure' ]
   },
   {
     name: '[Gen 9] National Dex',
@@ -1327,7 +1261,9 @@ export const Formats: import('../sim/dex-formats').FormatList = [
       'Standard',
       'Evasion Abilities Clause',
       'Baton Pass Stat Trap Clause',
-      'Freeze Clause Mod'
+      'Freeze Clause Mod',
+      'Sleep Moves Clause',
+      '!Sleep Clause Mod'
     ],
     banlist: [ 'AG', 'Uber', 'Arena Trap', 'Quick Claw', 'Soul Dew', 'Swagger' ]
   },
@@ -2196,7 +2132,13 @@ export const Formats: import('../sim/dex-formats').FormatList = [
   {
     name: '[Gen 4] UU',
     mod: 'gen4',
-    ruleset: [ '[Gen 4] OU', '!Baton Pass Stat Trap Clause', '!Freeze Clause Mod' ],
+    ruleset: [
+      '[Gen 4] OU',
+      '!Baton Pass Stat Trap Clause',
+      '!Freeze Clause Mod',
+      '!Sleep Moves Clause',
+      'Sleep Clause Mod'
+    ],
     banlist: [ 'OU', 'UUBL', 'Baton Pass' ],
     unbanlist: [ 'Arena Trap', 'Snow Cloak', 'Quick Claw', 'Swagger' ]
   },

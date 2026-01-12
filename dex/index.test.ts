@@ -2,7 +2,7 @@
 import * as fs from 'fs';
 import * as path from 'path';
 
-import {Dex} from './index';
+import {Dex, SpeciesName} from './index';
 
 describe('Dex', () => {
   describe('Conditions', () => {
@@ -76,7 +76,8 @@ describe('Dex', () => {
 
   describe('Items', () => {
     it('#get', () => {
-      expect(Dex.items.get('Aerodactylite').megaEvolves).toBe('Aerodactyl');
+      expect(Dex.items.get('Aerodactylite').megaStone!['Aerodactyl' as SpeciesName])
+        .toBe('Aerodactyl-Mega');
 
       expect(Dex.forGen(3).items.get('Berry').isNonstandard).toBe('Past');
       expect(Dex.forGen(3).items.get('Gold Berry').isNonstandard).toBe('Past');
@@ -105,8 +106,10 @@ describe('Dex', () => {
     it('fields', () => {
       expect(Dex.items.get('Sitrus Berry').effectType).toBe('Item');
       expect(Dex.forGen(4).items.get('Sitrus Berry').isBerry).toBe(true);
-      expect(Dex.items.get('Heracronite').megaStone).toBe('Heracross-Mega');
-      expect(Dex.items.get('Charizardite-X').megaEvolves).toBe('Charizard');
+      expect(Dex.items.get('Heracronite').megaStone!['Heracross' as SpeciesName])
+        .toBe('Heracross-Mega');
+      expect(Dex.items.get('Charizardite-X').megaStone!['Charizard' as SpeciesName])
+        .toBe('Charizard-Mega-X');
       expect(Dex.items.get('Pikanium Z').zMove).toBe('Catastropika');
       expect(Dex.items.get('Fairium Z').zMove).toBe(true);
       expect(Dex.items.get('Steelium Z').zMoveType).toBe('Steel');

@@ -1137,17 +1137,9 @@ export const Rulesets: import('../sim/dex-formats').FormatDataTable = {
 					typeTable = typeTable.filter(type => species.types.includes(type));
 				}
 				const item = this.dex.items.get(set.item);
-				if (item.megaStone) {
-					if (Array.isArray(item.megaStone)) {
-						const index = (item.megaEvolves as string[]).indexOf(species.name);
-						if (index >= 0) {
-							species = this.dex.species.get(item.megaStone[index]);
-							typeTable = typeTable.filter(type => species.types.includes(type));
-						}
-					} else {
-						species = this.dex.species.get(item.megaStone);
-						typeTable = typeTable.filter(type => species.types.includes(type));
-					}
+				if (item.megaStone?.[species.name]) {
+					species = this.dex.species.get(item.megaStone[species.name]);
+					typeTable = typeTable.filter(type => species.types.includes(type));
 				}
 				if (item.id === "ultranecroziumz" && species.baseSpecies === "Necrozma") {
 					species = this.dex.species.get("Necrozma-Ultra");
@@ -1288,36 +1280,6 @@ export const Rulesets: import('../sim/dex-formats').FormatDataTable = {
 		name: 'Overflow Stat Mod',
 		desc: "Caps stats at 654 after a positive nature, or 655 after a negative nature",
 		// Implemented in sim/battle.ts
-	},
-	formeclause: {
-		effectType: 'ValidatorRule',
-		name: 'Forme Clause',
-		desc: "Prevents teams from having more than one Pok&eacute;mon of the same forme",
-		onBegin() {
-			this.add('rule', 'Forme Clause: Limit one of each forme of a Pokémon');
-		},
-		onValidateTeam(team) {
-			const formeTable = new Set<string>();
-			for (const set of team) {
-				let species = this.dex.species.get(set.species);
-				if (species.name !== species.baseSpecies) {
-					const baseSpecies = this.dex.species.get(species.baseSpecies);
-					if (
-						species.types.join('/') === baseSpecies.types.join('/') &&
-						Object.values(species.baseStats).join('/') === Object.values(baseSpecies.baseStats).join('/')
-					) {
-						species = baseSpecies;
-					}
-				}
-				if (formeTable.has(species.name)) {
-					return [
-						`You are limited to one of each forme of a Pokémon by Forme Clause.`,
-						`(You have more than one of ${species.name})`,
-					];
-				}
-				formeTable.add(species.name);
-			}
-		},
 	},
 	openteamsheets: {
 		effectType: 'Rule',

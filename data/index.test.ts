@@ -9,7 +9,7 @@ import * as sim from '@pkmn/sim';
 import {Move, Pokemon, calculate} from '@smogon/calc/adaptable';
 import * as D from '@smogon/calc/data/interface';
 
-import {Dex as DexT, Generations, ItemName, StatsTable} from './index';
+import {Dex as DexT, Generations, ItemName, SpeciesName, StatsTable} from './index';
 
 const DATA = {
   'dex': dex.Dex as DexT,
@@ -91,7 +91,8 @@ for (const [pkg, Dex] of Object.entries(DATA)) {
 
     describe('Items', () => {
       it('#get', () => {
-        expect(Gen(7).items.get('Aerodactylite')!.megaEvolves).toBe('Aerodactyl');
+        expect(Gen(7).items.get('Aerodactylite')!.megaStone!['Aerodactyl' as SpeciesName])
+          .toBe('Aerodactyl-Mega');
 
         expect(Gen(3).items.get('Berry')).toBeUndefined();
         expect(Gen(3).items.get('Gold Berry')).toBeUndefined();
@@ -121,8 +122,10 @@ for (const [pkg, Dex] of Object.entries(DATA)) {
       it('fields', () => {
         expect(Gen(7).items.get('Sitrus Berry')!.effectType).toBe('Item');
         expect(Gen(4).items.get('Sitrus Berry')!.isBerry).toBe(true);
-        expect(Gen(7).items.get('Heracronite')!.megaStone).toBe('Heracross-Mega');
-        expect(Gen(7).items.get('Charizardite-X')!.megaEvolves).toBe('Charizard');
+        expect(Gen(7).items.get('Heracronite')!.megaStone!['Heracross' as SpeciesName])
+          .toBe('Heracross-Mega');
+        expect(Gen(7).items.get('Charizardite-X')!.megaStone!['Charizard' as SpeciesName])
+          .toBe('Charizard-Mega-X');
         expect(Gen(7).items.get('Pikanium Z')!.zMove).toBe('Catastropika');
         expect(Gen(7).items.get('Fairium Z')!.zMove).toBe(true);
         expect(Gen(7).items.get('Steelium Z')!.zMoveType).toBe('Steel');

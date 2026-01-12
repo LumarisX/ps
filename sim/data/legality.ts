@@ -5923,14 +5923,17 @@ export const Legality: {[k: string]:  import('../sim/dex-species').ModdedLearnse
   },
   smeargle: {
     learnset: {
-      falseswipe: [ '5S1' ],
-      flamethrower: [ '6S2' ],
-      furyswipes: [ '6S2' ],
-      meanlook: [ '5S1' ],
-      odorsleuth: [ '5S1' ],
-      seismictoss: [ '6S2' ],
-      sketch: [ '6S2', '3S0' ],
-      spore: [ '5S1' ]
+      doubleslap: [ '3S1' ],
+      falseswipe: [ '5S2' ],
+      flamethrower: [ '6S3' ],
+      furyswipes: [ '6S3' ],
+      irontail: [ '3S1' ],
+      meanlook: [ '5S2' ],
+      odorsleuth: [ '5S2' ],
+      seismictoss: [ '6S3' ],
+      sketch: [ '6S3', '3S1', '3S0' ],
+      spore: [ '5S2' ],
+      tailwhip: [ '3S1' ]
     },
     eventData: [
       {
@@ -5940,6 +5943,12 @@ export const Legality: {[k: string]:  import('../sim/dex-species').ModdedLearnse
         abilities: [ 'owntempo' ],
         moves: [ 'sketch' ],
         pokeball: 'pokeball'
+      },
+      {
+        generation: 3,
+        level: 45,
+        abilities: [ 'owntempo' ],
+        moves: [ 'sketch', 'tailwhip', 'doubleslap', 'irontail' ]
       },
       {
         generation: 5,

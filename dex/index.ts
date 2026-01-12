@@ -226,8 +226,7 @@ export class Item extends BasicEffect<T.ItemName> implements T.Item {
   readonly kind: 'Item';
 
   readonly forcedForme?: T.SpeciesName;
-  readonly megaStone?: T.SpeciesName | T.SpeciesName[];
-  readonly megaEvolves?: T.SpeciesName | T.SpeciesName[];
+  readonly megaStone?: {[megaEvolves: T.SpeciesName]: T.SpeciesName};
   readonly onDrive?: T.TypeName;
   readonly onMemory?: T.TypeName;
   readonly onPlate?: T.TypeName;

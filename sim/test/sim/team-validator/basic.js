@@ -160,7 +160,7 @@ describe('Team Validator', function () {
 		const team = [
 			{species: 'smeargle', ability: 'owntempo', moves: ['bellydrum', 'spore', 'sketch'], evs: {hp: 1}},
 		];
-		assert.legalTeam(team, 'gen4ou');
+		assert.legalTeam(team, 'gen4anythinggoes');
 	});
 
 	it('should accept both ability types for Mega Evolutions', function () {
