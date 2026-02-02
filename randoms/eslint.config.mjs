@@ -2,7 +2,7 @@ import pkmn from "@pkmn/eslint-config";
 
 export default [...pkmn, {
   rules: {
-    "@stylistic/indent": ["error", "tab", {flatTernaryExpressions: true}],
+    "@stylistic/indent": "off",
     "@stylistic/member-delimiter-style": "off",
     "@stylistic/no-mixed-spaces-and-tabs": "off",
     "@stylistic/no-multiple-empty-lines": "off",

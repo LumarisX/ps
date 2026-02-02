@@ -1295,6 +1295,11 @@
       "basePower": 70,
       "desc": "The user spends two or three turns locked into this move and becomes confused at the end of the last turn of the effect if it is not already. This move targets an opposing Pokemon at random on each turn. If the user is prevented from moving, falls asleep, becomes frozen, or the attack is not successful against the target, the effect ends without causing confusion. If this move is called by Sleep Talk, the move is used for one turn and does not confuse the user."
     },
+    "pursuit": {
+      "inherit": true,
+      "desc": "If the target is an opposing Pokemon and it switches out this turn, this move hits that Pokemon before it leaves the field. Power doubles and no accuracy check is done if the user hits an opponent switching out, and the user's turn is over; if an opponent faints from this, the replacement Pokemon becomes active immediately.",
+      "shortDesc": "Power doubles if the targeted foe is switching out."
+    },
     "recover": {"inherit": true, "pp": 20},
     "reversal": {
       "inherit": true,
@@ -1536,11 +1541,6 @@
     "protect": {
       "inherit": true,
       "desc": "The user is protected from most attacks made by other Pokemon during this turn. This move has an X/65536 chance of being successful, where X starts at 65535 and halves, rounded down, each time this move is successfully used. After the fourth successful use in a row, X drops to 118 and continues with seemingly random values from 0-65535 on subsequent successful uses. X resets to 65535 if this move fails or if the user's last move used is not Detect, Endure, or Protect. Fails if the user moves last this turn."
-    },
-    "pursuit": {
-      "inherit": true,
-      "desc": "If the target is an opposing Pokemon and it switches out this turn, this move hits that Pokemon before it leaves the field. Power doubles and no accuracy check is done if the user hits an opponent switching out, and the user's turn is over; if an opponent faints from this, the replacement Pokemon becomes active immediately.",
-      "shortDesc": "Power doubles if the targeted foe is switching out."
     },
     "rage": {
       "inherit": true,

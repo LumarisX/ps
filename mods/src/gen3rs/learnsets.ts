@@ -4358,6 +4358,7 @@ export const Learnsets: ModdedLearnsetDataTable = {
 			toxic: ["3M"],
 			uproar: ["3E"],
 			waterpulse: ["3M"],
+			wish: ["3E"],
 		},
 	},
 	delcatty: {
@@ -4815,6 +4816,7 @@ export const Learnsets: ModdedLearnsetDataTable = {
 			thunderbolt: ["3M"],
 			thunderwave: ["3L4"],
 			toxic: ["3M"],
+			wish: ["3E"],
 		},
 	},
 	minun: {
@@ -4848,6 +4850,7 @@ export const Learnsets: ModdedLearnsetDataTable = {
 			thunderbolt: ["3M"],
 			thunderwave: ["3L4"],
 			toxic: ["3M"],
+			wish: ["3E"],
 		},
 	},
 	volbeat: {
@@ -5464,6 +5467,7 @@ export const Learnsets: ModdedLearnsetDataTable = {
 			trick: ["3E"],
 			uproar: ["3L5"],
 			waterpulse: ["3M"],
+			wish: ["3E"],
 		},
 	},
 	trapinch: {

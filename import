@@ -673,7 +673,7 @@ const changes = async (where, last, now, repo) => ({
       'Documented in STREAMS.md.', 'Documentation can be found at\n' +
       ' * https://github.com/smogon/pokemon-showdown/blob/master/lib/STREAMS.md'
     ).replace('let options;', 'let options: any;')
-    .replace('\n\t// eslint-disable-next-line no-restricted-globals', '');
+      .replace('\n\t// eslint-disable-next-line no-restricted-globals', '');
     // double fuck you zarle, AnyObject is a dreadful hack to begin with, feel ashamed
     fs.writeFileSync(path.resolve(streams, 'index.ts'),
       `interface AnyObject {[k: string]: any}\n${index}`);
@@ -922,7 +922,7 @@ const changes = async (where, last, now, repo) => ({
 
     // Decompose learnsets into learnsets.ts with just the learnset and legality.ts with the rest
     for (const dir of [
-      'mods/gen2/', 'mods/gen6/', 'mods/gen8/', 'mods/gen8bdsp/', 'mods/gen8legends/', ''
+      'mods/gen2/', 'mods/gen6/', 'mods/gen8/', 'mods/gen8bdsp/', 'mods/gen8legends/', '',
     ]) {
       const original = require(path.resolve(ps, `dist/data/${dir}learnsets.js`)).Learnsets;
       const learnsets = {};
@@ -959,6 +959,7 @@ const changes = async (where, last, now, repo) => ({
         }
       }
       const d = dir ? '../../' : '';
+      /* eslint-disable max-len */
       fs.writeFileSync(path.resolve(sim, `data/${dir}learnsets.ts`),
         `export const Learnsets: {[k: string]:  import('../${d}sim/dex-species').ModdedLearnsetData} = ${inspect(learnsets)};\n`);
       fs.writeFileSync(path.resolve(sim, `data/${dir}legality.ts`),

@@ -16,7 +16,7 @@ export default [...pkmn, {
     "src/gen9dlc1/*.ts"
   ],
   rules: {
-    "@stylistic/indent": ["error", "tab", {flatTernaryExpressions: true}],
+    "@stylistic/indent": "off",
     "@stylistic/no-mixed-spaces-and-tabs": "off",
     "@stylistic/object-curly-spacing": "off",
     "@stylistic/operator-linebreak": "off",

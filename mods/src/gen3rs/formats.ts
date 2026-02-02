@@ -14,7 +14,6 @@ export const Formats = [
     gameType: 'doubles',
     searchShow: false,
     ruleset: [ 'Standard', '!Switch Priority Clause Mod' ],
-    banlist: [ 'Uber', 'Quick Claw', 'Soul Dew', 'Swagger' ],
-    unbanlist: [ 'Wobbuffet', 'Wynaut' ]
+    banlist: [ 'Uber', 'Quick Claw', 'Soul Dew', 'Swagger' ]
   }
 ];

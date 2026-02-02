@@ -242,7 +242,7 @@ export interface MoveData extends EffectData, HitEffect {
 
 export type SpeciesTag =
   'Mythical' | 'Restricted Legendary' | 'Sub-Legendary' | 'Ultra Beast' | 'Paradox';
-export interface SpeciesAbility<A = string> { 0: A; 1?: A; H?: A; S?: A }
+export interface SpeciesAbility<A = string> {0: A; 1?: A; H?: A; S?: A}
 
 export interface SpeciesData {
   abilities: SpeciesAbility;

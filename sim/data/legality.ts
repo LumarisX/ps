@@ -11089,6 +11089,7 @@ export const Legality: {[k: string]:  import('../sim/dex-species').ModdedLearnse
       },
       {
         generation: 8,
+        level: 1,
         moves: [ 'tailglow', 'watergun' ],
         pokeball: 'pokeball',
         source: 'gen8bdsp'
@@ -15790,7 +15791,13 @@ export const Legality: {[k: string]:  import('../sim/dex-species').ModdedLearnse
       doubleedge: [ '9S0' ],
       icespinner: [ '9S0' ]
     },
-    eventData: [ { generation: 9, moves: [ 'bodyslam', 'amnesia', 'icespinner', 'doubleedge' ] } ]
+    eventData: [
+      {
+        generation: 9,
+        level: 50,
+        moves: [ 'bodyslam', 'amnesia', 'icespinner', 'doubleedge' ]
+      }
+    ]
   },
   baxcalibur: {
     learnset: {
