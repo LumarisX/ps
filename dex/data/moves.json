@@ -208,6 +208,10 @@
       "desc": "While the user remains active, its Special is doubled when taking damage. Critical hits ignore this effect. If any Pokemon uses Haze, this effect ends.",
       "shortDesc": "While active, user's Special is 2x when damaged."
     },
+    "metronome": {
+      "inherit": true,
+      "desc": "A random move is selected for use, other than Metronome or Struggle."
+    },
     "mimic": {
       "inherit": true,
       "flags": {"protect": 1, "bypasssub": 1, "metronome": 1},
@@ -476,10 +480,6 @@
       "inherit": true,
       "desc": "If this move is successful, the user must recharge on the following turn and cannot select a move, unless the target or its substitute was knocked out by this move.",
       "shortDesc": "Can't move next turn if target or sub is not KOed."
-    },
-    "metronome": {
-      "inherit": true,
-      "desc": "A random move is selected for use, other than Metronome or Struggle."
     },
     "minimize": {
       "inherit": true,
@@ -2228,10 +2228,6 @@
         "nosketch": 1
       }
     },
-    "skillswap": {
-      "inherit": true,
-      "desc": "The user swaps its Ability with the target's Ability. Fails if either the user or the target's Ability is Multitype or Wonder Guard, if both have the same Ability, or if either is holding a Griseous Orb."
-    },
     "sleeptalk": {
       "inherit": true,
       "desc": "One of the user's known moves, besides this move, is selected for use at random. Fails if the user is not asleep. The selected move does not have PP deducted from it, and can currently have 0 PP. This move cannot select Assist, Bide, Chatter, Copycat, Focus Punch, Me First, Metronome, Mirror Move, Sleep Talk, Uproar, or any two-turn move."
@@ -2618,6 +2614,10 @@
       "inherit": true,
       "desc": "The user faints after using this move, unless this move has no target. The target's Defense is halved during damage calculation. This move is prevented from executing if any active Pokemon has the Damp Ability.",
       "shortDesc": "Target's Def halved during damage. User faints."
+    },
+    "skillswap": {
+      "inherit": true,
+      "desc": "The user swaps its Ability with the target's Ability. Fails if either the user or the target's Ability is Multitype or Wonder Guard, if both have the same Ability, or if either is holding a Griseous Orb."
     },
     "skyuppercut": {
       "inherit": true,
@@ -3145,10 +3145,6 @@
         "metronome": 1
       }
     },
-    "skillswap": {
-      "inherit": true,
-      "desc": "The user swaps its Ability with the target's Ability. Fails if either the user or the target's Ability is Illusion, Multitype, or Wonder Guard, or if both have the same Ability."
-    },
     "skullbash": {"inherit": true, "basePower": 100, "pp": 15},
     "skydrop": {
       "inherit": true,
@@ -3368,6 +3364,10 @@
     "simplebeam": {
       "inherit": true,
       "desc": "Causes the target's Ability to become Simple. Fails if the target's Ability is Multitype, Simple, or Truant."
+    },
+    "skillswap": {
+      "inherit": true,
+      "desc": "The user swaps its Ability with the target's Ability. Fails if either the user or the target's Ability is Illusion, Multitype, or Wonder Guard, or if both have the same Ability."
     },
     "sleeptalk": {
       "inherit": true,

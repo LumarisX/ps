@@ -224,6 +224,8 @@
     },
     "arceus": {"name": "Arceus", "onTypePriority": 1},
     "silvally": {"name": "Silvally", "onTypePriority": 1},
+    "zacian": {"name": "Zacian"},
+    "zamazenta": {"name": "Zamazenta"},
     "rolloutstorage": {"name": "rolloutstorage", "duration": 2}
   }
 }

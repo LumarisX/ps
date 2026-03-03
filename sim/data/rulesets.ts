@@ -1202,6 +1202,12 @@ export const Rulesets: import('../sim/dex-formats').FormatDataTable = {
 			this.add('rule', 'Terastal Clause: You cannot Terastallize');
 		},
 	},
+	fullarceusclause: {
+		effectType: 'ValidatorRule',
+		name: 'Full Arceus Clause',
+		desc: "Allows Level 80 Arceus from Hall of Origin",
+		// Implemented in sim/team-validator.ts
+	},
 	minsourcegen: {
 		effectType: 'ValidatorRule',
 		name: "Min Source Gen",

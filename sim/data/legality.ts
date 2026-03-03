@@ -9848,12 +9848,12 @@ export const Legality: {[k: string]:  import('../sim/dex-species').ModdedLearnse
   },
   gastrodoneast: {
     learnset: {
-      earthpower: [ '9S3', '9S2', '8S1', '8S0' ],
-      icebeam: [ '9S2', '8S1', '8S0' ],
+      earthpower: [ '9S2', '9S3', '8S0', '8S1' ],
+      icebeam: [ '9S2', '8S0', '8S1' ],
       icywind: [ '9S3' ],
-      protect: [ '9S3', '9S2', '8S1', '8S0' ],
+      protect: [ '9S2', '9S3', '8S0', '8S1' ],
       surf: [ '8S0' ],
-      yawn: [ '9S3', '9S2', '8S1' ]
+      yawn: [ '9S2', '9S3', '8S1' ]
     },
     eventData: [
       {
