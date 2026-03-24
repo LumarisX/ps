@@ -3754,7 +3754,9 @@
         "Pikachu-Pop-Star",
         "Pikachu-PhD",
         "Pikachu-Libre",
-        "Pikachu-Original",
+        "Pikachu-Original"
+      ],
+      "cosmeticFormes": [
         "Pikachu-Hoenn",
         "Pikachu-Sinnoh",
         "Pikachu-Unova",
@@ -24318,20 +24320,15 @@
       "weightkg": 80.5,
       "eggGroups": ["Undiscovered"],
       "tags": ["Mythical"],
-      "otherFormes": [
-        "Magearna-Original",
-        "Magearna-Mega",
-        "Magearna-Original-Mega"
-      ],
+      "otherFormes": ["Magearna-Mega"],
+      "cosmeticFormes": ["Magearna-Original"],
       "formeOrder": [
         "Magearna",
         "Magearna-Original",
-        "Magearna-Mega",
-        "Magearna-Original-Mega"
+        "Magearna-Mega"
       ]
     },
     "magearnaoriginal": {
-      "num": 801,
       "name": "Magearna-Original",
       "baseSpecies": "Magearna",
       "forme": "Original",
@@ -24347,7 +24344,9 @@
       },
       "abilities": {"0": "Soul-Heart"},
       "weightkg": 80.5,
-      "eggGroups": ["Undiscovered"]
+      "eggGroups": ["Undiscovered"],
+      "otherFormes": ["Magearna-Original-Mega"],
+      "formeOrder": ["Magearna-Original-Mega"]
     },
     "magearnamega": {
       "num": 801,
@@ -25731,28 +25730,14 @@
       "weightkg": 0.2,
       "evos": ["Polteageist"],
       "eggGroups": ["Mineral", "Amorphous"],
-      "otherFormes": ["Sinistea-Antique"],
+      "cosmeticFormes": ["Sinistea-Antique"],
       "formeOrder": ["Sinistea", "Sinistea-Antique"]
     },
     "sinisteaantique": {
-      "num": 854,
+      "isCosmeticForme": true,
       "name": "Sinistea-Antique",
       "baseSpecies": "Sinistea",
-      "forme": "Antique",
-      "types": ["Ghost"],
-      "gender": "N",
-      "baseStats": {
-        "hp": 40,
-        "atk": 45,
-        "def": 45,
-        "spa": 74,
-        "spd": 54,
-        "spe": 50
-      },
-      "abilities": {"0": "Weak Armor", "H": "Cursed Body"},
-      "weightkg": 0.2,
-      "evos": ["Polteageist-Antique"],
-      "eggGroups": ["Undiscovered"]
+      "forme": "Antique"
     },
     "polteageist": {
       "num": 855,
@@ -25774,30 +25759,14 @@
       "evoType": "useItem",
       "evoItem": "Cracked Pot",
       "eggGroups": ["Mineral", "Amorphous"],
-      "otherFormes": ["Polteageist-Antique"],
+      "cosmeticFormes": ["Polteageist-Antique"],
       "formeOrder": ["Polteageist", "Polteageist-Antique"]
     },
     "polteageistantique": {
-      "num": 855,
+      "isCosmeticForme": true,
       "name": "Polteageist-Antique",
       "baseSpecies": "Polteageist",
-      "forme": "Antique",
-      "types": ["Ghost"],
-      "gender": "N",
-      "baseStats": {
-        "hp": 60,
-        "atk": 65,
-        "def": 65,
-        "spa": 134,
-        "spd": 114,
-        "spe": 70
-      },
-      "abilities": {"0": "Weak Armor", "H": "Cursed Body"},
-      "weightkg": 0.4,
-      "prevo": "Sinistea-Antique",
-      "evoType": "useItem",
-      "evoItem": "Chipped Pot",
-      "eggGroups": ["Undiscovered"]
+      "forme": "Antique"
     },
     "hatenna": {
       "num": 856,
@@ -27654,30 +27623,15 @@
       "weightkg": 2.3,
       "prevo": "Tandemaus",
       "evoLevel": 25,
-      "otherFormes": ["Maushold-Four"],
+      "cosmeticFormes": ["Maushold-Four"],
       "formeOrder": ["Maushold", "Maushold-Four"],
       "eggGroups": ["Field", "Fairy"]
     },
     "mausholdfour": {
-      "num": 925,
+      "isCosmeticForme": true,
       "name": "Maushold-Four",
       "baseSpecies": "Maushold",
-      "forme": "Four",
-      "types": ["Normal"],
-      "gender": "N",
-      "baseStats": {
-        "hp": 74,
-        "atk": 75,
-        "def": 70,
-        "spa": 65,
-        "spd": 75,
-        "spe": 111
-      },
-      "abilities": {"0": "Friend Guard", "1": "Cheek Pouch", "H": "Technician"},
-      "weightkg": 2.8,
-      "prevo": "Tandemaus",
-      "evoLevel": 25,
-      "eggGroups": ["Field", "Fairy"]
+      "forme": "Four"
     },
     "fidough": {
       "num": 926,
@@ -28926,30 +28880,15 @@
       "prevo": "Dunsparce",
       "evoType": "levelMove",
       "evoMove": "Hyper Drill",
-      "otherFormes": ["Dudunsparce-Three-Segment"],
+      "cosme": ["Dudunsparce-Three-Segment"],
       "formeOrder": ["Dudunsparce", "Dudunsparce-Three-Segment"],
       "eggGroups": ["Field"]
     },
     "dudunsparcethreesegment": {
-      "num": 982,
+      "isCosmeticForme": true,
       "name": "Dudunsparce-Three-Segment",
       "baseSpecies": "Dudunsparce",
-      "forme": "Three-Segment",
-      "types": ["Normal"],
-      "baseStats": {
-        "hp": 125,
-        "atk": 100,
-        "def": 80,
-        "spa": 85,
-        "spd": 75,
-        "spe": 55
-      },
-      "abilities": {"0": "Serene Grace", "1": "Run Away", "H": "Rattled"},
-      "weightkg": 47.4,
-      "prevo": "Dunsparce",
-      "evoType": "levelMove",
-      "evoMove": "Hyper Drill",
-      "eggGroups": ["Field"]
+      "forme": "Three-Segment"
     },
     "kingambit": {
       "num": 983,
@@ -29544,28 +29483,14 @@
       "weightkg": 1.1,
       "evos": ["Sinistcha"],
       "eggGroups": ["Mineral", "Amorphous"],
-      "otherFormes": ["Poltchageist-Artisan"],
+      "cosmeticFormes": ["Poltchageist-Artisan"],
       "formeOrder": ["Poltchageist", "Poltchageist-Artisan"]
     },
     "poltchageistartisan": {
-      "num": 1012,
+      "isCosmeticForme": true,
       "name": "Poltchageist-Artisan",
       "baseSpecies": "Poltchageist",
-      "forme": "Artisan",
-      "types": ["Grass", "Ghost"],
-      "gender": "N",
-      "baseStats": {
-        "hp": 40,
-        "atk": 45,
-        "def": 45,
-        "spa": 74,
-        "spd": 54,
-        "spe": 50
-      },
-      "abilities": {"0": "Hospitality", "H": "Heatproof"},
-      "weightkg": 1.1,
-      "evos": ["Sinistcha-Masterpiece"],
-      "eggGroups": ["Undiscovered"]
+      "forme": "Artisan"
     },
     "sinistcha": {
       "num": 1013,
@@ -29587,30 +29512,14 @@
       "evoType": "useItem",
       "evoItem": "Unremarkable Teacup",
       "eggGroups": ["Mineral", "Amorphous"],
-      "otherFormes": ["Sinistcha-Masterpiece"],
+      "cosmeticFormes": ["Sinistcha-Masterpiece"],
       "formeOrder": ["Sinistcha", "Sinistcha-Masterpiece"]
     },
     "sinistchamasterpiece": {
-      "num": 1013,
+      "isCosmeticForme": true,
       "name": "Sinistcha-Masterpiece",
       "baseSpecies": "Sinistcha",
-      "forme": "Masterpiece",
-      "types": ["Grass", "Ghost"],
-      "gender": "N",
-      "baseStats": {
-        "hp": 71,
-        "atk": 60,
-        "def": 106,
-        "spa": 121,
-        "spd": 80,
-        "spe": 70
-      },
-      "abilities": {"0": "Hospitality", "H": "Heatproof"},
-      "weightkg": 2.2,
-      "prevo": "Poltchageist-Artisan",
-      "evoType": "useItem",
-      "evoItem": "Masterpiece Teacup",
-      "eggGroups": ["Undiscovered"]
+      "forme": "Masterpiece"
     },
     "okidogi": {
       "num": 1014,
